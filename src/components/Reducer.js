@@ -5,6 +5,11 @@ const Reducer = (state, action) => {
                 ...state,
                 name: action.value
             };
+        case 'SET_POSITION':
+            return {
+                ...state,
+                name: action.value
+            };
         case 'SET_EMAIL':
             return {
                 ...state,
