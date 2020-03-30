@@ -1,6 +1,5 @@
 import React, {useContext, useRef} from 'react';
 import {Col, Container, Form, Row} from 'react-bootstrap';
-import '../UserForm.css';
 import {Context} from './Store'
 
 function UserForm(props) {

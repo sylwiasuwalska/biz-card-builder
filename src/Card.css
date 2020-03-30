@@ -1,6 +1,7 @@
 .cardContainer {
     padding: 2%;
     margin: 0 auto;
+    color: #000;
 
 }
 
@@ -9,6 +10,7 @@
     width: 450px;
     background:#FFF;
     margin:40px auto;
+
 }
 
 .card
@@ -52,6 +54,7 @@
 .layout-center {
     margin: 10%;
     text-align: center;
+
 }
 
 
