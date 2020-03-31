@@ -62,14 +62,17 @@
 }
 
 .layout-center {
+
     text-align: center;
 }
 
 .layout-right {
+    margin: 10%;
     text-align: right;
 }
 
 .layout-left {
+    margin: 10%;
     text-align: left;
 }
 

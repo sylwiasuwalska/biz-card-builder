@@ -1,39 +1,44 @@
-import React, {useContext,} from 'react';
+import React, {useContext, useState,} from 'react';
 import {Context} from "./Store";
 import {Container, Form, FormControl, InputGroup, Row} from "react-bootstrap";
 import '../Card.css';
 
 
 function Card(props) {
+    const [globalState, dispatch] = useContext(Context);
+    const [alignState, alignSet] = useState("layout-left");
+
+
+
     const handleOptionChange = changeEvent => {
-        console.log(changeEvent.target.value)
-        return changeEvent.target.value
+        alignSet(changeEvent.target.value);
     };
 
     const handleFormSubmit = formSubmitEvent => {
         formSubmitEvent.preventDefault();
     }
 
-    const [state, dispatch] = useContext(Context);
+
+
 
     return (
 
         <Container className="cardContainer">
             <Row>
                 <div className="box card">
-                    <div className="layout layout-left">
-                        <h3 className="name">{state.name}</h3>
-                        <p className="profession">{state.profession}</p>
-                        <p className="email">e-mail: {state.email}</p>
-                        <p className="telephone">mobile: {state.telephone}</p>
-                        <p className="address">addres: {state.address}</p>
+                    <div className={`layout ${alignState}`}>
+                        <h3 className="name">{globalState.name}</h3>
+                        <p className="profession">{globalState.profession}</p>
+                        <p className="email">e-mail: {globalState.email}</p>
+                        <p className="telephone">mobile: {globalState.telephone}</p>
+                        <p className="address">addres: {globalState.address}</p>
                     </div>
                 </div>
             </Row>
             <Row>
 
                 <Form onSubmit={handleFormSubmit}>
-
+                    <h4>Align content:</h4>
                     <div className="form-check">
                         <label>
                             <input
