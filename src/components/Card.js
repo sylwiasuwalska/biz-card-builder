@@ -1,6 +1,6 @@
 import React, {useContext, useState} from "react";
 import {Context} from "./Store";
-import {Col, Container, Form, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import "../Card.css";
 import RadioList from "./RadioList";
 
@@ -29,17 +29,15 @@ function Card(props) {
     return (
         <Container className="cardContainer">
             <Row>
-                <div className={` box card `}>
-                    <div className={backgroundState}>
-                        <div className={`layout ${fontState} ${alignState}`}>
-                            <h3 className="name">{globalState.name}</h3>
-                            <p className="profession">{globalState.profession}</p>
-                            <p className="email">e-mail: {globalState.email}</p>
-                            <p className="telephone">mobile: {globalState.telephone}</p>
-                            <p className="address">addres: {globalState.address}</p>
-                        </div>
-                    </div>
+
+                <div className={`box card layout ${backgroundState} ${fontState} ${alignState}`}>
+                    <h3 className="name">{globalState.name}</h3>
+                    <p className="profession">{globalState.profession}</p>
+                    <p className="email">e-mail: {globalState.email}</p>
+                    <p className="telephone">mobile: {globalState.telephone}</p>
+                    <p className="address">addres: {globalState.address}</p>
                 </div>
+
             </Row>
             <Row className="contentChanger">
                 <Col>
