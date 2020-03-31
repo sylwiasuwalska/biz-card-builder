@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e20041c871cc527ae54ef1195cf01ff8",
+    "revision": "1958aba82e5b92880dd6245ecb2a5de1",
     "url": "/biz-card-builder/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/biz-card-builder/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "066e828d99600f452614",
-    "url": "/biz-card-builder/static/css/main.51b72c7e.chunk.css"
+    "revision": "bd318a68c3a244af1a3f",
+    "url": "/biz-card-builder/static/css/main.721a912b.chunk.css"
   },
   {
     "revision": "732c81d8c49ff2db49e2",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/biz-card-builder/static/js/2.a0cf575e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "066e828d99600f452614",
-    "url": "/biz-card-builder/static/js/main.e0645177.chunk.js"
+    "revision": "bd318a68c3a244af1a3f",
+    "url": "/biz-card-builder/static/js/main.28b75705.chunk.js"
   },
   {
     "revision": "6a7fe7ff10b2b75ce2f6",
