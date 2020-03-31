@@ -2,7 +2,6 @@
     padding: 2%;
     margin: 0 auto;
     color: #000;
-
 }
 
 .box {
@@ -10,7 +9,6 @@
     width: 450px;
     background:#FFF;
     margin:40px auto;
-
 }
 
 .card
@@ -20,6 +18,7 @@
     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
+
 .card:before, .card:after
 {
     content:"";
@@ -47,7 +46,6 @@
 }
 
 .card p {
-
     margin: 0;
 }
 
@@ -62,18 +60,26 @@
 }
 
 .layout-center {
-
     text-align: center;
 }
 
 .layout-right {
-    margin: 10%;
     text-align: right;
 }
 
 .layout-left {
-    margin: 10%;
     text-align: left;
 }
 
+.font1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.font3 {
+    font-family: 'Raleway', sans-serif;
+}
 
