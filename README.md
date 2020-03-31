@@ -1,11 +1,17 @@
-Bussiness Card Builder
 
- - first project using React Hooks
- - first project using WebStorm 
+ **Business Card Builder**
  
  
+Project creates business card. You can type information about you into a form, and then choose different content alignment, fonts and backgrounds.
+
+LIVE DEMO: https://sylwiasuwalska.github.io/biz-card-builder/
+
+![View of project](view.JPG)
+
+ Technologies used:
+ - ReactJS with Hooks
+ - React Bootstrap
+ - my first project with Webstorm
  
- DEMO: https://sylwiasuwalska.github.io/biz-card-builder/
- 
- Card Background Style from: https://codepen.io/haibnu/pen/FxGsI
- 
+ Card styles: https://codepen.io/haibnu/pen/FxGsI
+               
