@@ -6,7 +6,7 @@ const initialState = {
     profession: "IT manager",
     email: "wojciech@wojciechklos.com",
     telephone: "+48-607-901-805",
-    address: "Świętego Spokoju 7, Brzeziny",
+    address: "ul. Świętego Spokoju 7, Brzeziny",
 };
 
 const Store = ({children}) => {
