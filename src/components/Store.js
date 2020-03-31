@@ -3,11 +3,11 @@ import Reducer from './Reducer'
 
 
 const initialState = {
-    name: "Sylwia Suwalska",
-    profession: "frontend developer",
-    email: "sylwia@sylwiasuwalska.com",
+    name: "Wojciech Kłos",
+    profession: "IT manager",
+    email: "wojciech@wojciechklos.com",
     telephone: "+48-607-901-805",
-    address: "Świętego Spokoju 7, Nepal"
+    address: "Świętego Spokoju 7, Brzeziny"
 };
 
 const Store = ({children}) => {
