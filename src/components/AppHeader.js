@@ -1,11 +1,11 @@
 import React from 'react';
 
-function HeaderApp(props) {
+function AppHeader(props) {
     return (
-        <header className="headerApp">
+        <header>
             <h1>Business Card Builder</h1>
         </header>
     );
 }
 
-export default HeaderApp;
+export default AppHeader;

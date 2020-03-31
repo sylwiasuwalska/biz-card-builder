@@ -21,7 +21,7 @@ function UserForm(props) {
     }
 
     return (
-        <Container>
+        <Container className="userForm">
             <Form onSubmit={handleSubmit}  >
                 <Form.Row>
                     <Col>

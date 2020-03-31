@@ -6,7 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #ccc;
-    color: #fff;
+    color: #555555;
 }
 
 code {
@@ -14,9 +14,21 @@ code {
     monospace;
 }
 
-.headerApp  {
-    margin: 3%;
+header {
+    background-color: #555555;
+    margin: 0 auto;
     text-align: center;
-    color: #000;
+    color: #fff;
+    padding: 2%;
 }
 
+.userForm {
+    margin-top: 2%;
+}
+
+footer {
+    background-color: #555555;
+    text-align: left;
+    color: #fff;
+    font-size: 0.75em;
+}
