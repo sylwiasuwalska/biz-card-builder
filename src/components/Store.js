@@ -4,9 +4,9 @@ import Reducer from './Reducer'
 
 const initialState = {
     name: "Sylwia Suwalska",
-    position: "frontend developer",
-    email: "sylwia@sylwia.com",
-    telephone: "607-901-805",
+    profession: "frontend developer",
+    email: "sylwia@sylwiasuwalska.com",
+    telephone: "+48-607-901-805",
     address: "Świętego Spokoju 7, Nepal"
 };
 

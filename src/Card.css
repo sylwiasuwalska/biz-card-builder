@@ -51,10 +51,26 @@
     margin: 0;
 }
 
-.layout-center {
+.layout {
     margin: 10%;
-    text-align: center;
+}
 
+.layout .profession {
+    font-style: italic;
+    margin-top:6%;
+    margin-bottom: 4%;
+}
+
+.layout-center {
+    text-align: center;
+}
+
+.layout-right {
+    text-align: right;
+}
+
+.layout-left {
+    text-align: left;
 }
 
 

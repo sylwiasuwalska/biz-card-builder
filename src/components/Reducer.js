@@ -5,10 +5,10 @@ const Reducer = (state, action) => {
                 ...state,
                 name: action.value
             };
-        case 'SET_POSITION':
+        case 'SET_PROFESSION':
             return {
                 ...state,
-                name: action.value
+                profession: action.value
             };
         case 'SET_EMAIL':
             return {

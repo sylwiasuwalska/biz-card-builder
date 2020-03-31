@@ -7,7 +7,7 @@ function UserForm(props) {
     const [state, dispatch] = useContext(Context);
 
     const nameRef = useRef(null);
-    const positionRef = useRef(null)
+    const professionRef = useRef(null)
     const emailRef = useRef(null);
     const telephoneRef = useRef(null);
     const addressRef = useRef(null);
@@ -25,17 +25,17 @@ function UserForm(props) {
             <Form onSubmit={handleSubmit}  >
                 <Form.Row>
                     <Col>
-                        <Form.Label>Name: </Form.Label>
+                        <Form.Label>First and last name: </Form.Label>
                         <Form.Control size="sm" type="name" ref={nameRef}
                                       onChange={() => {
-                                          handleChange('SET_FIRST_NAME', nameRef)
+                                          handleChange('SET_NAME', nameRef)
                                       }}/>
                     </Col>
                     <Col>
-                        <Form.Label>Position: </Form.Label>
-                        <Form.Control size="sm" type="name" ref={positionRef}
+                        <Form.Label>Profession: </Form.Label>
+                        <Form.Control size="sm" type="name" ref={professionRef}
                                       onChange={() => {
-                                          handleChange('SET_POSITION', positionRef)
+                                          handleChange('SET_PROFESSION', professionRef)
                                       }}/>
                     </Col>
                 </Form.Row>
