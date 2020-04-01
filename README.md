@@ -11,7 +11,7 @@ LIVE DEMO: https://sylwiasuwalska.github.io/biz-card-builder/
  Technologies used:
  - ReactJS with Hooks
  - React Bootstrap
- - my first project with Webstorm
+ - WebStorm used for development
  
  Card styles: https://codepen.io/haibnu/pen/FxGsI
                
