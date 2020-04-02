@@ -1,8 +1,8 @@
 import React, {useContext, useRef} from 'react';
-import {Col, Container, Form, Row} from 'react-bootstrap';
+import {Col, Container, Form} from 'react-bootstrap';
 import {Context} from './Store'
 
-function UserForm(props) {
+function UserForm() {
 
     const [state, dispatch] = useContext(Context);
 

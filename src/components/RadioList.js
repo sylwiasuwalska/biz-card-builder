@@ -1,6 +1,5 @@
 import React from "react";
 import {Form} from "react-bootstrap";
-import html2canvas from 'html2canvas';
 
 function RadioList(props) {
 
