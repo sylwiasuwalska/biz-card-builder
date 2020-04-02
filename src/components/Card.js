@@ -1,14 +1,8 @@
 import React, { useContext, useRef, useState } from "react";
-import ReactDOM from "react-dom";
 import { Context } from "./Store";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import {Col, Container, Row } from "react-bootstrap";
 import "../Card.css";
 import RadioList from "./RadioList";
-import htmlToImage from "html-to-image";
-import Pdf from "react-to-pdf";
-import html2PDF from 'jspdf-html2canvas';
-import html2canvas from 'html2canvas';
-import jsPDF from 'jspdf';
 
 function Card(props) {
   const [globalState, dispatch] = useContext(Context);
@@ -31,18 +25,6 @@ function Card(props) {
 
   const handleFormSubmit = (formSubmitEvent) => {
     formSubmitEvent.preventDefault();
-  };
-
-  const pdfExport = (buttonEvent) => {
-    const cardDiv = cardRef.current;
-    html2canvas(cardDiv).then(canvas => {
-      const dataURL = canvas.toDataURL();
-      const pdf = new jsPDF();
-
-      pdf.addImage(dataURL, 'JPEG', 20, 20, 180, 160);
-
-      pdf.save('saved.pdf')
-    })
   };
 
   return (
@@ -110,9 +92,6 @@ function Card(props) {
             label3={"Background 3"}
           />
         </Col>
-      </Row>
-      <Row>
-        <Button onClick={pdfExport}>Save as pdf</Button>
       </Row>
     </Container>
   );
